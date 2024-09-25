@@ -1,9 +1,6 @@
 // Write your solution here!
 let cats = ["Milo", "Otis", "Garfield"];
-cats.push('miaw');
-cats.unshift('miaw');
-cats.pop('miaw');
-cats.shift('miaw');
+
 function destructivelyAppendCat(name){
     cats.push(name);
 }
